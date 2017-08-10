@@ -3,7 +3,7 @@ TransIP API
 ===========
 
 .. image:: https://travis-ci.org/benkonrath/transip-api.png?branch=develop
-:align: right
+   :align: right
    :target: https://travis-ci.org/benkonrath/transip-api
 
 This library aims to implement the `TransIP API`_ in Python.
