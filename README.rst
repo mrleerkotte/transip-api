@@ -3,7 +3,7 @@ TransIP API
 ===========
 
 .. image:: https://travis-ci.org/benkonrath/transip-api.png?branch=develop
-   :align: right
+:align: right
    :target: https://travis-ci.org/benkonrath/transip-api
 
 This library aims to implement the `TransIP API`_ in Python.
@@ -69,8 +69,8 @@ update DNS records. When calling it with '-h', it will show all available option
 	                        type of the DNS entry
 	  --entry-content ENTRY_CONTENT
 	                        content of the DNS entry
-      --api-key PRIVATE_KEY_FILE
-                            TransIP private key
+          --api-key PRIVATE_KEY_FILE
+                                TransIP private key
 
 
 Example of adding/updating a record:

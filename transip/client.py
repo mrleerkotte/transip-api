@@ -2,6 +2,7 @@
 The Client class, handling direct communication with the API
 """
 
+from __future__ import print_function
 import base64
 import time
 import uuid
@@ -57,7 +58,7 @@ class Client(object):
 
             return signature
         else:
-            print("The private key does not exist.")
+            print('The private key does not exist.')
             exit(1)
 
     def _build_signature_message(self, service_name, method_name,
